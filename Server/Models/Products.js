@@ -7,7 +7,7 @@ const Products = mongoose.model('Products',{
     Processor: {type : String},
     Memory: {type : String},
     Weight: {type : String},
-    Dimensions: {type : String},
+    Dimension: {type : String},
     Graphics_Processor: {type : String},
     image:{type:String}
 });
